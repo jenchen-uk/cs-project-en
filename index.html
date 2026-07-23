@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            var ms_forms = [
+                "https://forms.cloud.microsoft/r/jCkU8ihADq", // screenshot four & one
+                "https://forms.cloud.microsoft/r/HNKJLs1m1n", // screenshot three & two
+                "https://forms.cloud.microsoft/r/4vH3g363n9", // screenshot two & three 
+                "https://forms.cloud.microsoft/r/R8hez16bmd" // screenshot one & four
+            ];
+            var random_num = Math.floor(Math.random() * ms_forms.length)
+            var pick = ms_forms[random_num];
+            
+            window.location.replace(pick);
+        </script>
+    </body>
+</html>
